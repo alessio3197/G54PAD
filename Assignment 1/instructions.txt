@@ -1,0 +1,30 @@
+Alessio Cauteruccio
+4287379
+
+Compilation and Execution Instruction for G54PAD Assignment 1
+
+Assignment 1 created using Python 3.7.3, although any version of Python 3 should be sufficient 
+to run the file.
+To run instructions, there are 2 ways the Main() function can take a list of instruction from 
+a text file:
+	1. Save list of instructions in same directory as searchtree.py file saved as 
+	   'textSearch.txt' and run file from IDLE or cmd/Terminal:
+			user@root:Desktop$ python searchtree.py
+	2. Run searchtree.py from cmd giving the name of text file as first argument, so for 
+	   Linux Terminal:
+			user@root:Desktop$ python searchtree.py textSearch.txt
+			
+Within my solution, 'delete' is not complete. As such I have included two versions of my 
+searchtree file:
+	1. searchtree.py has my entire solution including partial but not complete delete 
+	   functions
+	2. searchtree_no_delete.py has all other code except for the delete structure, and for 
+	   delete only having an empty function in order for a correct delete structure to be 
+	   added for testing purposes
+Commenting within the files outlines this as well.
+Other than the delete structure, all other submission points have been completed and are 
+included within the file,
+i.e. solutions are contained for 'search', 'insert', 'checkRB', a data type definition for a 
+Node and helper functions.
+
+For any further instruction for use with the solution, please email psyagca@nottingham.ac.uk	
